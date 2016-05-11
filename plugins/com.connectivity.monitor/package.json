@@ -1,0 +1,30 @@
+{
+    "version": "1.0.2",
+    "name": "com.connectivity.monitor",
+    "cordova_name": "Connectivity Monitoring",
+    "description": "Connectivity status monitoring. Detects if there is WIFI/3G/EDGE/CDMA available.",
+    "license": "MIT",
+    "repo": "https://github.com/appfeel/connectivity-monitor.git",
+    "issue": "https://github.com/appfeel/connectivity-monitor/issues",
+    "keywords": [
+        "connectivity",
+        "network state",
+        "net state",
+        "net",
+        "monitoring",
+        "monitor",
+        "net status",
+        "reachability",
+        "appfeel"
+    ],
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=2.9"
+        }
+    ]
+}

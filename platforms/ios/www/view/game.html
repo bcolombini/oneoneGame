@@ -1,0 +1,100 @@
+<style>
+    .row
+    {
+        padding: 0;
+        height: 12%;
+        margin: 6px 0 0 0;
+    }
+    .row .box
+    {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin:6px 6px;
+        border-radius:5px;
+        height: 80%;
+        width: 50%;
+    }
+    .color-1
+    {
+        background: #387ef5;
+        border:1px solid #0c63ee;
+    }
+    .color-0
+    {
+        background: #ee4a43;
+        border:1px solid #ed3129;
+    }
+</style>
+<!--<div style="width: 320px;margin:0 auto;">-->
+    <div style="width: 320px;margin: 0 auto">
+    <div style="margin:40px 0 0 12px;width: 128px;text-align: center;font-family: 'dock11';color:#2b1c15;font-size:25px;display: inline-block">
+        CLICK
+    </div>
+<div style="margin:40px 0px 0 20px;width: 140px;text-align: right;font-family: 'dock11';color:#ee4a43;font-size:25px;display: inline-block">
+    <a href="#/" style="text-decoration:none;color:#ee4a43">BACK</a>
+</div>
+    <div class="top" style="margin: 2px 0 10px 12px;display: inline-block">
+        {{click}}
+    </div>
+    <div class="top" style="margin: 2px 0 10px 37px;display: inline-block;background: none;border: none;color:#ee4a43;font-size: 15px">
+        <p style="margin-right: -50px">{{hour}}:{{min}}:{{seconds}}</p>
+    </div>
+        </div>
+<div style="position: absolute ; width: 100%;height: 100%">
+    <div class="row">
+        <div class="box position-0 color-{{cores[0]}}" data-ng-click="change(0)"></div>
+        <div class="box position-1 color-{{cores[1]}}" data-ng-click="change(1)"></div>
+        <div class="box position-2 color-{{cores[2]}}" data-ng-click="change(2)"></div>
+        <div class="box position-3 color-{{cores[3]}}" data-ng-click="change(3)"></div>
+        <div class="box position-4 color-{{cores[4]}}" data-ng-click="change(4)"></div>
+        <div class="box position-5 color-{{cores[5]}}" data-ng-click="change(5)"></div>
+    </div>
+    <div class="row">
+        <div class="box position-6 color-{{cores[6]}}" data-ng-click="change(6)"></div>
+        <div class="box position-7 color-{{cores[7]}}" data-ng-click="change(7)"></div>
+        <div class="box position-8 color-{{cores[8]}}" data-ng-click="change(8)"></div>
+        <div class="box position-9 color-{{cores[9]}}" data-ng-click="change(9)"></div>
+        <div class="box position-10 color-{{cores[10]}}" data-ng-click="change(10)"></div>
+        <div class="box position-11 color-{{cores[11]}}" data-ng-click="change(11)"></div>
+    </div>
+    <div class="row">
+        <div class="box position-12 color-{{cores[12]}}" data-ng-click="change(12)"></div>
+        <div class="box position-13 color-{{cores[13]}}" data-ng-click="change(13)"></div>
+        <div class="box position-14 color-{{cores[14]}}" data-ng-click="change(14)"></div>
+        <div class="box position-15 color-{{cores[15]}}" data-ng-click="change(15)"></div>
+        <div class="box position-16 color-{{cores[16]}}" data-ng-click="change(16)"></div>
+        <div class="box position-17 color-{{cores[17]}}" data-ng-click="change(17)"></div>
+    </div>
+    <div class="row">
+        <div class="box position-18 color-{{cores[18]}}" data-ng-click="change(18)"></div>
+        <div class="box position-19 color-{{cores[19]}}" data-ng-click="change(19)"></div>
+        <div class="box position-20 color-{{cores[20]}}" data-ng-click="change(20)"></div>
+        <div class="box position-21 color-{{cores[21]}}" data-ng-click="change(21)"></div>
+        <div class="box position-22 color-{{cores[22]}}" data-ng-click="change(22)"></div>
+        <div class="box position-23 color-{{cores[23]}}" data-ng-click="change(23)"></div>
+    </div>
+    <div class="row">
+        <div class="box position-24 color-{{cores[24]}}" data-ng-click="change(24)"></div>
+        <div class="box position-25 color-{{cores[25]}}" data-ng-click="change(25)"></div>
+        <div class="box position-26 color-{{cores[26]}}" data-ng-click="change(26)"></div>
+        <div class="box position-27 color-{{cores[27]}}" data-ng-click="change(27)"></div>
+        <div class="box position-28 color-{{cores[28]}}" data-ng-click="change(28)"></div>
+        <div class="box position-29 color-{{cores[29]}}" data-ng-click="change(29)"></div>
+    </div>
+    <div class="row">
+        <div class="box position-30 color-{{cores[30]}}" data-ng-click="change(30)"></div>
+        <div class="box position-31 color-{{cores[31]}}" data-ng-click="change(31)"></div>
+        <div class="box position-32 color-{{cores[32]}}" data-ng-click="change(32)"></div>
+        <div class="box position-33 color-{{cores[33]}}" data-ng-click="change(33)"></div>
+        <div class="box position-34 color-{{cores[34]}}" data-ng-click="change(34)"></div>
+        <div class="box position-35 color-{{cores[35]}}" data-ng-click="change(35)"></div>
+    </div>
+</div>
+</div>
+<script id="my-modal.html" type="text/ng-template">
+    <div style="width: 100%;height: 50px;top:50%;margin:-25px 0 0 0;position: absolute;text-align: center;font-family: dock11;font-size: 30px;color:#387ef5;text-align: center">
+        <p>CONGRATULATIONS!</p>
+        <p>YOU WIN!</p>
+    </div>
+</script>

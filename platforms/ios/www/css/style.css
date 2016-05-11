@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+.pane, .view ,.bar-footer{background: #eaf5fd}
+.bar .title{;color:#2b1c15;font-size:14px}
+.view-container{background: #eaf5fd}
+[nav-view-direction="back"]{background: #eaf5fd}
+
+.only-game-class
+{
+    font-family: "dock11";
+}
+.top
+{
+    background:#387ef5;
+    border:3px solid #0c63ee;
+    border-radius: 5px;
+    font-family: "dock11";
+    width: 128px;
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px 0;
+}
+.left
+{
+    position: absolute;
+    left: 0;
+    margin: 0 0 0 10px;
+}
+.right
+{
+    margin: 0 10px 0 ;
+    right: 0;
+    position: absolute;
+}
+.top-70
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 320px;
+    margin-left: -160px;
+}
